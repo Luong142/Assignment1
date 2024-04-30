@@ -1,11 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Play : MonoBehaviour
 {
+    [SerializeField]
+    GameObject video;
+
+    [SerializeField]
+    bool isPlaying;
+
     public void OnPlayVideo()
     {
-        Debug.Log("Hello World!");
+        VideoPlayer videoPlayer = video.GetComponent<VideoPlayer>();
+
+        if (videoPlayer.isPlaying)
+        {
+            videoPlayer.Pause();
+            isPlaying = false;
+        }
+        else
+        {
+            videoPlayer.Play();
+            isPlaying = true;
+        }
     }
 }
