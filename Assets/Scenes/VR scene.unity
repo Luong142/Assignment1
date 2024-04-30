@@ -2331,7 +2331,7 @@ GameObject:
   - component: {fileID: 452713969}
   - component: {fileID: 452713970}
   m_Layer: 0
-  m_Name: video here
+  m_Name: Video Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2345,12 +2345,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452713964}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.462, y: -0.046, z: 2.63}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.517, y: 0.45012242, z: 2.021}
+  m_LocalScale: {x: 1.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1317017609}
+  m_Father: {fileID: 1857970078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &452713966
 MeshCollider:
@@ -7227,7 +7227,6 @@ Transform:
   - {fileID: 1791234575}
   - {fileID: 19871564}
   - {fileID: 42405627}
-  - {fileID: 452713965}
   m_Father: {fileID: 1857970078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1324406535
@@ -10609,6 +10608,7 @@ Transform:
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 452713965}
   - {fileID: 1317017609}
   - {fileID: 1281890922}
   - {fileID: 525458834}
@@ -10728,7 +10728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.407, y: 0.735}
+  m_AnchoredPosition: {x: -0.354, y: 0.735}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924212943
