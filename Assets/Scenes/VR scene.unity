@@ -10620,6 +10620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857970078}
+  - component: {fileID: 1857970079}
   m_Layer: 0
   m_Name: -- static objects --
   m_TagString: Untagged
@@ -10646,6 +10647,30 @@ Transform:
   - {fileID: 525458834}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &1857970079
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857970077}
+  m_Enabled: 1
+  m_MinDistance: 6
+  m_MaxDistance: 10
+  m_ReverbPreset: 13
+  m_Room: -1000
+  m_RoomHF: -300
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.59
+  m_Reflections: -1219
+  m_ReflectionsDelay: 0.007
+  m_Reverb: 441
+  m_ReverbDelay: 0.011
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1001 &1886381172
 PrefabInstance:
   m_ObjectHideFlags: 0
